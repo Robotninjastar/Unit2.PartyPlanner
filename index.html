@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party App</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Party App</h1>
+
+        <div id="parties-container"></div>
+
+        <form id="add-party-form">
+            <h2>Add New Party</h2>
+            <label for="partyName">Name:</label>
+            <input type="text" id="partyName" required>
+
+            <label for="partyDate">Date:</label>
+            <input type="date" id="partyDate" required>
+
+            <label for="partyTime">Time:</label>
+            <input type="time" id="partyTime" required>
+
+            <label for="partyLocation">Location:</label>
+            <input type="text" id="partyLocation" required>
+
+            <label for="partyDescription">Description:</label>
+            <textarea id="partyDescription" required></textarea>
+
+            <button type="submit">Add Party</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
